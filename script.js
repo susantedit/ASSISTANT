@@ -47,7 +47,7 @@ function takeCommand(message){
     if (message.includes("hello")||message.includes("hey")){
         speak("hello sir , what can i help you")
     }
-    else if(message.includes("Who are you")){
+    else if(message.includes("Who are you")|| message.includes("Who created you")){
         speak("I am virtual assistant , created by susant luitel or you can say kanta raj luitel")
     }
     else if(message.includes("open youtube")){
